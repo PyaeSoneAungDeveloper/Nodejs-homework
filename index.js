@@ -62,6 +62,7 @@ const singnup = async (req, res) => {
         } else {
             res.status(200).json({
                 returncode: 300,
+                message: "Sign up Successful.",
                 data: [
                     newuser
                 ]
